@@ -8,7 +8,109 @@ html, body {
 }
 
 .content-container {
-    border: 1px solid;
     display: grid;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 1fr 5fr;
 }
+
+.content-container-left {
+    background-color: #0284c7;
+    height: 100vh;
+    color: #f0f9ff;
+}
+
+.sidebar {
+    display: grid;
+    grid-template-rows: 1.5fr 6fr 3fr;
+    border: 1px solid;
+    grid-column: 1 / 3;
+    font-family: 'Roboto';
+}
+
+.fa-gauge {
+    padding-left: 1.6rem;
+    padding-right: .5rem;
+}
+
+.sidebar h1 {
+    font-size: 2.5rem;
+    grid-row: 1 / 2;
+    align-self: top;
+}
+
+.first-list,
+.second-list {
+    display: grid;
+    font-size: 1.5rem;
+    list-style-type: none;
+    font-weight: bold;
+    padding-left: 2rem;
+}
+
+.first-list i,
+.second-list i {
+    padding-right: .8rem;
+    font-size: 1.2rem;
+}
+
+.header {
+    padding-top: 1.5rem;
+    padding-right: 5rem;
+    border: 1px solid black;
+    padding-left: 2.5rem;
+}
+
+.header-top {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    grid-row: 1 / 2;;
+}
+
+#search-lab {
+    width: 30rem;
+    border-radius: 1.5rem;
+    border-style: none;
+    background-color: rgba(245, 230, 209, 0.676);
+    height: 1.5rem;
+}
+
+.header-top-right {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: end;
+    gap: 25px;
+    align-items: center;
+}
+
+.header-bottom {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 5rem 3fr 3fr;
+    align-items: center;
+    height: 100px;
+}
+
+.header-bottom-right {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 10fr));
+}
+
+.header-bottom-right button {
+    padding: .8rem 1rem;
+    border-radius: 1.5rem;
+    border-style: none;
+    background-color: rgba(73, 144, 244, 0.589);
+    width: 60%;
+}
+
+.fa-circle {
+    font-size: 4rem;
+}
+
+/* @media screen and (min-width:1600px) {
+    .content-container {
+        max-width: 1600px;
+        margin: auto;
+    }
+} */
