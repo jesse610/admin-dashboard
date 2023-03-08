@@ -6,121 +6,190 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Rubik:wght@300&display=swap" rel="stylesheet">    
     <link rel="stylesheet" href="style.css">
     <title>Admin Dashboard</title>
 </head>
 <body>
     <div class="content-container">
-        <div class="content-container-left">
-            <div class="sidebar">
-                <h1><i class="fa-solid fa-gauge"></i>Dashboard</h1>
+        <div class="sidebar">
+            <h1><i class="fa-solid fa-gauge"></i>Dashboard</h1>
 
-                <ul class="first-list">
-                    <li><i class="fa-solid fa-house"></i>Home</li>
-                    <li><i class="fa-regular fa-address-card"></i>Profile</li>
-                    <li><i class="fa-solid fa-message"></i>Messages</li>
-                    <li><i class="fa-solid fa-clock"></i>History</li>
-                    <li><i class="fa-solid fa-list-check"></i>Tasks</li>
-                    <li><i class="fa-solid fa-globe"></i>Communities</li>
-                </ul>
+            <ul class="first-list">
+                 <li><i class="fa-solid fa-house"></i>Home</li>
+                 <li><i class="fa-regular fa-address-card"></i>Profile</li>
+                 <li><i class="fa-solid fa-message"></i>Messages</li>
+                 <li><i class="fa-solid fa-clock"></i>History</li>
+                 <li><i class="fa-solid fa-list-check"></i>Tasks</li>
+                 <li><i class="fa-solid fa-globe"></i>Communities</li>
+            </ul>
 
-                <ul class="second-list">
-                    <li><i class="fa-solid fa-gear"></i>Settings</li>
-                    <li><i class="fa-solid fa-phone"></i>Support</li>
-                    <li><i class="fa-solid fa-user-shield"></i>Privacy</li>
-                </ul>
+            <ul class="second-list">
+                <li><i class="fa-solid fa-gear"></i>Settings</li>
+                <li><i class="fa-solid fa-phone"></i>Support</li>
+                <li><i class="fa-solid fa-user-shield"></i>Privacy</li>
+            </ul>
+        </div>
+
+        <div class="header">
+            <div class="header-top">
+                <div>
+                    <label for="search-lab"><i class="fa-solid fa-magnifying-glass"></i></label>
+                    <input type="search" id="search-lab">
+                </div>
+
+                <div class="header-top-right">
+                    <i class="fa-solid fa-bell"></i>
+                    <i class="fa-sharp fa-regular fa-circle"></i>
+                    <span>John Appleseed</span>
+                </div>
+            </div>
+
+            <div class="header-bottom">
+                <div class="header-bottom-left">
+                    <i class="fa-sharp fa-regular fa-circle"></i>
+                </div>
+
+                <div>
+                    <span>Hi there,<br> John Appleseed (@johnappleseed)</span>
+                </div>
+                
+                <div class="header-bottom-right">
+                    <button>New</button>
+                    <button>Upload</button>
+                    <button>Share</button>
+                </div>
             </div>
         </div>
 
-        <div class="content-container-right">
-            <div class="header">
-                <div class="header-top">
-                    <div>
-                        <label for="search-lab"><i class="fa-solid fa-magnifying-glass"></i></label>
-                        <input type="search" id="search-lab">
-                    </div>
+        <div class="project-container-title">
+            <span>Your projects</span>
+        </div>
 
-                    <div class="header-top-right">
-                        <i class="fa-solid fa-bell"></i>
-                        <i class="fa-sharp fa-regular fa-circle"></i>
-                        <span>John Appleseed</span>
-                    </div>
+        <div class="project-container">
+            <div class="card">
+                <div>
+                    <h5>Super Cool Project</h5>
+                    <p> ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, expedita eius perspiciatis inventore mollitia minima</p>
                 </div>
 
-                <div class="header-bottom">
-                    <div class="header-bottom-left">
-                        <i class="fa-sharp fa-regular fa-circle"></i>
-                    </div>
-
-                    <div>
-                        <span>Hi there,<br> John Appleseed (@johnappleseed)</span>
-                    </div>
-                
-                    <div class="header-bottom-right">
-                         <button>New</button>
-                        <button>Upload</button>
-                        <button>Share</button>
-                    </div>
+                <div class="card-icons">
+                    <i class="fa-regular fa-square-plus"></i>
+                    <i class="fa-regular fa-eye"></i>
+                    <i class="fa-solid fa-share-nodes"></i>
                 </div>
+
             </div>
+            <div class="card">
+                <div>
+                    <h5>Super Easy Project</h5>
+                    <p> ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, expedita eius perspiciatis inventore mollitia minima</p>
+                </div>
 
-            <div class="main-container">
-                <div class="project-container">
-                    <div class="card">
-                        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, expedita eius perspiciatis inventore mollitia minima?</div>
-                    </div>
-                    <div class="card">
-                        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, expedita eius perspiciatis inventore mollitia minima?</div>
-                    </div>
-                    <div class="card">
-                        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, expedita eius perspiciatis inventore mollitia minima?</div>
-                    </div>
-                    <div class="card">
-                        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, expedita eius perspiciatis inventore mollitia minima?</div>
-                    </div>
-                    <div class="card">
-                        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, expedita eius perspiciatis inventore mollitia minima?</div>
-                    </div>
-                    <div class="card">
-                        <div>bLorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, expedita eius perspiciatis inventore mollitia minima?</div>
-                    </div>
-                    <div class="card">
-                        <div>bLorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, expedita eius perspiciatis inventore mollitia minima?</div>
-                    </div>
-                    <div class="card">
-                        <div>bLorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, expedita eius perspiciatis inventore mollitia minima?</div>
-                    </div>
+                <div class="card-icons">
+                    <i class="fa-regular fa-square-plus"></i>
+                    <i class="fa-regular fa-eye"></i>
+                    <i class="fa-solid fa-share-nodes"></i>
+                </div>
+
+            </div>
+            <div class="card">
+                <div>
+                    <h5>Super Lame Project</h5>
+                    <p> ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, expedita eius perspiciatis inventore mollitia minima</p>
+                </div>
+
+                <div class="card-icons">
+                    <i class="fa-regular fa-square-plus"></i>
+                    <i class="fa-regular fa-eye"></i>
+                    <i class="fa-solid fa-share-nodes"></i>
+                </div>
+
+            </div>
+            <div class="card">
+                <div>
+                    <h5>Ad Blocker</h5>
+                    <p> ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, expedita eius perspiciatis inventore mollitia minima</p>
+                </div>
+
+                <div class="card-icons">
+                    <i class="fa-regular fa-square-plus"></i>
+                    <i class="fa-regular fa-eye"></i>
+                    <i class="fa-solid fa-share-nodes"></i>
+                </div>
+
+            </div>
+            <div class="card">
+                <div>
+                    <h5>Password Generator</h5>
+                    <p> ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, expedita eius perspiciatis inventore mollitia minima</p>
+                </div>
+
+                <div class="card-icons">
+                    <i class="fa-regular fa-square-plus"></i>
+                    <i class="fa-regular fa-eye"></i>
+                    <i class="fa-solid fa-share-nodes"></i>
+                </div>
+
+            </div>
+            <div class="card">
+                <div>
+                    <h5>Bills Payer</h5>
+                    <p> ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, expedita eius perspiciatis inventore mollitia minima</p>
+                </div>
+
+                <div class="card-icons">
+                    <i class="fa-regular fa-square-plus"></i>
+                    <i class="fa-regular fa-eye"></i>
+                    <i class="fa-solid fa-share-nodes"></i>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="card-container">
+            <div class="announcement-card-title">
+                <span>Announcements</span>
+            </div>
+    
+            <div class="announcement-card">
+                <div>
+                    <h3>Site Maintence</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae repellendus, praesentium esse modi eaque expedita.</p>
                 </div>
                 <div>
-                    <div class="announcement container">
-                        <div class="announcement-card">
-                            <div>
-                                <h3>Site Maintence</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae repellendus, praesentium esse modi eaque expedita.</p>
-                            </div>
-                        </div>
-                        <div class="announcement-card">
-                            <div>
-                                <h3>Community share day</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum debitis, incidunt cum eius libero numquam.</p>
-                            </div>
-                        </div>
-                        <div class="announcement-card">
-                            <div>
-                                <h3>updated Privacy policy</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam expedita illum repudiandae explicabo perferendis officia!</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="trending-container">
-                        <div>trend 1</div>
-                        <div>trend 2</div>
-                        <div>trend 3</div>
-                        <div>trend 4</div>
-                    </div>
+                    <h3>Community share day</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum debitis, incidunt cum eius libero numquam.</p>
+                </div>
+                <div class="no-border">
+                    <h3>updated Privacy policy</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam expedita illum repudiandae explicabo perferendis officia!</p>
                 </div>
             </div>
+    
+            <div class="trending-card-title">
+                <span>Trending</span>
+            </div>
+    
+            <div class="trending-card">
+                <div class="row">
+                    <i class="fa-solid fa-person"></i>
+                    <span>@person1 <br>World Peace Builder</span>
+                </div>
+                <div class="row">
+                    <i class="fa-solid fa-person"></i>
+                    <span>@person2 <br>Super Cool Project</span>
+                </div>
+                <div class="row">
+                    <i class="fa-solid fa-person"></i>
+                    <span>@person3 <br>Life Changing App</span>
+                </div>
+                <div class="row">
+                    <i class="fa-solid fa-person"></i>
+                    <span>@person4 <br>No Traffic Maker</span>
+                </div>
+            </div>
+
         </div>
     </div>
     <script src="https://kit.fontawesome.com/a82eb620ea.js" crossorigin="anonymous"></script>
